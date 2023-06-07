@@ -1,5 +1,4 @@
 #!/usr/bin/python3
 def print_last_digit(n):
-    return n % 10
-n = 60
-print(print_last_digit(n))
+    print(abs(n) % 10, end="")
+    return (abs(n) % 10)
