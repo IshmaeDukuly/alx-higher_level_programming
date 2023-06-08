@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__ ++ "__name__":
+if __name__ == "__name__":
     import sys
 
     count_num = len(sys.argv) -1)
