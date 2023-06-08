@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     from  add_0 import add
-    n1 = 1
-    n2 = 2
-    print("{} + {} = {}".format(n1, n2, add(n1, n2)))
+    a = 1
+    b = 2
+    print("{} + {} = {}".format(a, b, add(a, b)))
 
