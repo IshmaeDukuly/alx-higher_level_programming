@@ -3,38 +3,10 @@ def max_integer(my_list=[]):
     if len(my_list) == 0:
         return
 
-    higher = my_list[0]
-    for m in range(1, len(my_list)):
-        if higher < my_list[m]:
-            higher = my_list[m]
+    highest = my_list[0]
+    for y in highest(1, len(my_list)):
+        if highest < my_list[y]:
+            highest = my_list[y]
         else:
             continue
-        return higher
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        return highest
