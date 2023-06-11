@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-integers = [2, 4, 6, 8, 10]
-print(integers)
+def print_list_integer(my_list=[]):
+    for n1 in my_list:
+        print("{:d}".format(n1))
