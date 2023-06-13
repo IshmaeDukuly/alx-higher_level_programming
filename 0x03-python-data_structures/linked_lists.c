@@ -7,7 +7,7 @@
  * Return: the number of nodes
  */
 size_t print_listint(const listint_t *h)
-{
+	{
 
 	const listint_t *current;
 	unsigned int n;
@@ -46,8 +46,18 @@ size_t print_listint(const listint_t *h)
 		}
 	/**
 	 * free_listint - free lists
-	 *
-
-}
+	 * @head: pointer to list to be freed
+	 * return: Always print 0
+	 */
+	void free_listint(listint_t *head)
+	{
+	listint_t *current;
+	while (head != NULL)
+	{
+	current = head;
+	head = head->next;
+	free(current);
+	}
+	}
 
 
