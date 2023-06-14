@@ -1,10 +1,10 @@
-# Authored by: Ishmael M. Dukuly
-import types
 
-lib = cytypes_CDLL('./libPython.So)
+import ctypes
+
+lib = ctypes_CDLL('./libPython.so)
 lib.print_python_list.argtypes = [ctypes.py_object]
 lib.print_python_bytes.argtypes = [ctypes.py_object]
-s = b"Hello
+s = b"Hello"
 lib.print_python_bytes(s);
 b = b'\xff\xf8\x00\x00\x00\x00\x00\x00';
 lib.print_python_bytes(b);
