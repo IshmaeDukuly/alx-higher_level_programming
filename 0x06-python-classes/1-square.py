@@ -11,4 +11,4 @@ class Square:
         sqaure"""
 
 
-        self.__size = size
+    self.__size = size
