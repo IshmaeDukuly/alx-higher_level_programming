@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 #ishmael Dukuly
+
 def magic_calculation(a, b):
     output = 0
 
