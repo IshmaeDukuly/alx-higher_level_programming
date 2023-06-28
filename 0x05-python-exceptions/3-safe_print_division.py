@@ -3,7 +3,7 @@
 def safe_print_division(a, b):
     """Here, rertuns the division"""
     try:
-        div = m/n
+        div = a / b
     except (TypeError, ZeroDivisionError):
         div = None
     finally:
