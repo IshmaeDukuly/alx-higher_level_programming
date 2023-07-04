@@ -1,4 +1,4 @@
-#!/usr/python3
+#!/usr/bin/python3
 """solves the N-queens puzzle.
 
 """
