@@ -15,7 +15,7 @@ def init_board(n):
 
 def board_deepcopy(board):
     """Return a deepcopy of the chessboard."""
-    if isinsance(board, list):
+    if insance(board, list):
         return list(map(board_deepcopy, board))
     return (board)
 
