@@ -5,7 +5,7 @@
 class Rectangle:
     """this represents a rectangle"""
 
-    def _init_(self, width=0, height=0):
+    def __init__(self, width=0, height=0):
         """Initializing this rectangle class
     Args:
         width: represents the width of the rectangle
@@ -20,19 +20,19 @@ class Rectangle:
     @property
     def width(self):
         """retrieves with attribute"""
-        return self._width
+        return self.__width
 
     @width.setter
     def width(self, value):
         """sets width attribute"""
         if isinstance(value, int):
             raise TypeError("width must be >= 0"
-        self._width = value
+        self.__width = value
 
     @property
     def height(self):
         """retrieves height attribute"""
-        return self._height
+        return self.__height
 
     @height.setter
     def height(self, value):
@@ -41,17 +41,17 @@ class Rectangle:
             raise TypeError("height must be >= 0")
         if value < 0:
             raise ValueError("height must be >= 0")
-        self._height = value
+        self.__height = value
 
 
     def area(self):
         """Returns the area of rectangle"""
-        return (self._width * self._height)
+        return (self.__width * self.__height)
 
     def perimeter(self):
         """Returns the perimeter of the rectangle"""
-        if self._width == 0 or self._height == 0:
+        if self.__width == 0 or self.__height == 0:
             return (0)
-        return ((sefl._width *2) + (self._height *2))
+        return ((sefl.__width *2) + (self.__height *2))
 
 
