@@ -20,8 +20,8 @@ class LockedClass():
     Traceback (most recent call last):
 
     ...
-    AttributeError: 'LockedClass' object has no atribute
-    called last_name"""
+    AttributeError: 'LockedClass' object has no atribute 'last__name'
+    """
 
 
     __slots_ = "first_name"
