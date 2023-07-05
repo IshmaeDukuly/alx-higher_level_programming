@@ -24,16 +24,16 @@ FAIL CASES:
 Test no args:
 	>>> print(add_integer(none))
 	Traceback (most recent call last):
-	
+
 	...
 
 	TypeError: a must be an integer
 	>>> print(add_integer(None, None))
 	Traceback (most recent call last):
-	
+
 	...
 	TypeError: a must be an integer
-	
+
 Test extra args:
 	>>> print(add_integer(1, 2, 3))
 	Traceback (most recent call last):
@@ -73,4 +73,4 @@ Test specail float NaN in Python (not a number):
 	ValueError: cannot convert float NaN to integer
 
 
-	
+
