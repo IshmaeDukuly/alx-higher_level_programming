@@ -12,7 +12,7 @@ class MyInt(int):
         __ne__(self, other)
         """
 
-        def __init__(self, nm):
+        def __init__(self, num):
             """now initialize num"""
             self.num = num
 
