@@ -4,15 +4,12 @@ sneaky --> has == and != operators inverted
 """
 
 
-
 class MyInt(int):
     """
-
     Methods:
         __init_(self, num)
         __eq__(self, other)
         __ne__(self, other)
-
         """
 
         def __init__(self, nm):
@@ -21,7 +18,6 @@ class MyInt(int):
 
             def __eq__(self, other):
                 """
-
                 Return: True if both are eqaul
                 """
 
@@ -29,8 +25,6 @@ class MyInt(int):
 
             def __ne__(self, other):
                 """
-
                 Return: True if both are eqaul
-
                 """
                 return self.num == other
