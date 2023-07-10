@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""This is  module a class MyInt that has inherits from int
-sneaky --> has == and != operators inverted
+"""
+This is  module a class MyInt that has inherits from int
+sneaky --> has == and != operators inverted!
 """
 
 
@@ -10,15 +11,17 @@ class MyInt(int):
         __init_(self, num)
         __eq__(self, other)
         __ne__(self, other)
+
         """
 
         def __init__(self, num):
-            """now initialize num"""
+            """initialize num"""
             self.num = num
 
             def __eq__(self, other):
                 """
                 Return: True if both are eqaul
+
                 """
 
                 return self.num != other
@@ -26,5 +29,6 @@ class MyInt(int):
             def __ne__(self, other):
                 """
                 Return: True if both are eqaul
+
                 """
                 return self.num == other
