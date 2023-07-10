@@ -4,6 +4,7 @@
 This contains the class that inherite from the list
 """
 
+
 class MyList(list):
     """ Inherits
 
