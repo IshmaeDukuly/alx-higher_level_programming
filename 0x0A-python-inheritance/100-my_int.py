@@ -3,12 +3,31 @@
 
 
 class MyInt(int):
-   """The int operators == and !="""
+    """
+    Methods:
+        __init__(self, number)
+        __eq__(self, others)
+        __ne__(self, others)
 
-def __eq__(self, value):
-    """override == operator with != behavior"""
-    return self.real != value
+    """
 
-def __ne__(self, value):
-    """override the == operator with != behavior"""
-    return self.real == value
+    def __init__(self, number):
+        """now initialize num"""
+        self.number
+
+        def __eq__(self, others):
+            """
+
+            return: True if the both are not equal
+
+            """
+
+            return self.number != others
+
+        def __ne__(self, others):
+            """
+            Return:
+            True if both not equal
+
+            """
+            return self.number == others
