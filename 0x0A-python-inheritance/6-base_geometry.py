@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-#Author: Ishmael Dukuly
+# Author: Ishmael Dukuly
 """
 The empty class BaseGeometry
 with instance method area
+
 """
 
 
-class BaseGeometry
+class BaseGeometry:
     """
     The Methods:
     ara(self)
