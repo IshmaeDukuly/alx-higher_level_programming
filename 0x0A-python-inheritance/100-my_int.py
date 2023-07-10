@@ -5,25 +5,25 @@
 class MyInt(int):
      """
          Methods:
-        __init__(self, number)
-        __eq__(self, others)
-        __ne__(self, others)
+        __init__(self, num)
+        __eq__(self, other)
+        __ne__(self, other)
      """
 
-    def __init__(self, number):
-        """now initialize number"""
-        self.number
+    def __init__(self, num):
+        """now initialize num"""
+        self.num
 
-     def __eq__(self, others):
+     def __eq__(self, other):
             """
             return: True if the both are not equal
             """
 
-            return self.number != others
+            return self.num != other
 
-     def __ne__(self, others):
+     def __ne__(self, other):
             """
             Return:
             True if both not equal
             """
-            return self.number == others
+            return self.num == other
