@@ -25,7 +25,16 @@ with private attributes of width and height, validated by parent
         """
 
         super().integer_validator('width', width)
-        self.__width = width
         super().ineger_validator('height', height)
         self.__height = height
+        self.__height = height
+
+        def area(self):
+            """extents parent's empty mthod and output the area"""
+            return self.__width * self.__height
+
+        def __str__(self):
+            """prints [Rectangle] <width>/<height>"""
+            return "[{:s}] {:d}/{:d}".format(self.__class__.___name__.
+                    self>__width, self.__height)
 
