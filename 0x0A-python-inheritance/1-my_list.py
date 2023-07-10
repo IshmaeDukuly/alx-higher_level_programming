@@ -4,7 +4,7 @@
 This contains the class that inherite from the list
 """
 
-class MyList():
+class MyList(list):
     """ Inherits
 
     the methods:
@@ -12,4 +12,5 @@ class MyList():
     """
 
     def print_sorted(self):
-        print(sorted(self)
+        """Prints list of ints in sorted orderly"""
+        print(sorted(self))

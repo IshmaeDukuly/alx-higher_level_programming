@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 """
-Entai;s method of lookup that returns a lis of object
+Entais method of lookup that returns a lis of object
 """
 
 def lookup(obj):
