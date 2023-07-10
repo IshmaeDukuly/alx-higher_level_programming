@@ -2,7 +2,7 @@
 """consists module defines a function that adds attributes to objects"""
 
 
-def add-attribute(obj, att, value):
+def add_attribute(obj, att, value):
     """add the new attribute to the object if possible"""
 
     if not hasattr(obj, "__dict__"):
