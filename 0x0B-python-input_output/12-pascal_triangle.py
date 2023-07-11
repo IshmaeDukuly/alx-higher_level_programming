@@ -18,4 +18,7 @@ def pascal_triangle():
 
     triangle = [[1]]
     for angle in range(n-1):
-        trangle.append([a+b for a, b in zip([0]] + triangle[-1], triangle[-1] + [0])])
+        triangle.append([a+b for a, b in
+            zip([0]] + triangle[-1], triangle[-1] + [0])])
+
+    return triangle
