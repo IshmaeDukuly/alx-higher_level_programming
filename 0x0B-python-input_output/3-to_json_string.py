@@ -7,7 +7,7 @@ def to_json_string(my_obj):
     """Return to JSON representation of obj (string)
     Args:
         my_obj: python obj
-    Return: 
+    Return:
         json string representation
     """
     import json
