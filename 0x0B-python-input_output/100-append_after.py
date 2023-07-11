@@ -4,9 +4,9 @@ Contains function taht appends str after lines include keyword
 """
 
 
-def append_after(filename="", search_strings="", new_string=""):
+def append_after(filename="", search_string="", new_string=""):
     """
-    appends str after lines that include keyword (search-string)
+    appends str after lines that include keyword (search_string)
     """
 
     with open(filename, mode="r+", encoding="utf-8") as f:
