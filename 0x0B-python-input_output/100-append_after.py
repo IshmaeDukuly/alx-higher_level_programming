@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains function taht appends str after lines include keyword
+Contains function that appends str after lines include keyword
 """
 
 
