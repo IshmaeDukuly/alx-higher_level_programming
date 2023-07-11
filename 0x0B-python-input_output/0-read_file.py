@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""''''
-Contains function that reads and prints contents file
+"""
+Contains function that reads and prints contents from file
 """
 
 
