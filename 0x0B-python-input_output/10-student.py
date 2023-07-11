@@ -42,7 +42,7 @@ class Student():
                 return self.__dict__
             else:
                 dic = {}
-                for attribute in attrs:
-                    if attribute in self.__dict__.keys():
-                        dict[attribute] = self.__dict__[attribute]
+                for att in attrs:
+                    if att in self.__dict__.keys():
+                        dict[att] = self.__dict__[att]
                 return dic
