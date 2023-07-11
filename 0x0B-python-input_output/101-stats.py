@@ -38,6 +38,9 @@ def pasre_stdin_and_compute():
                 print_size_and_codes(size, stat_codes)
     except KeyboardInterrupt:
         print_size_and_codes(size, stat_codes)
+        raise
+
+    print_size_and_codes(size, stat_codes)
 
 
 
