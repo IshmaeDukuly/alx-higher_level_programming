@@ -8,7 +8,7 @@ def from_json_string(my_str):
     """Returns to python data structure from JSON string
     Args:
         my_str: json string representation
-    Return: 
+    Return:
          python object
     """
     import json
