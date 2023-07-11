@@ -36,7 +36,7 @@ def pasre_stdin_and_compute():
             lines +=
             if lines % 10 == 0:
                 print_size_and_codes(size, stat_codes)
-    except KeyboardInterrup:
+    except KeyboardInterrupt:
         print_size_and_codes(size, stat_codes)
 
 
