@@ -7,7 +7,7 @@ consists subclass square with private attribute size, validated by superclass
 """
 
 
-Rectangle = __import__('9-rectangle').Rectangle
+Rectangle =__import__('9-rectangle').Rectangle
 
 
 
