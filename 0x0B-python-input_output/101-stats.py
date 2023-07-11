@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
 
-The script reads stdin and computes metrics
+crpit reads stdin line by line and computes metrics
 
 
 prints the statics from the beginning:
 the total file size and possible status: 200, 301, 400, 401, 403, 405, and 500
 
-format: The File size: <amount size>
+format: The File size: <total size>
 format: <status code (in ascending order)>: <number>
 """
 
@@ -16,8 +16,8 @@ import sys
 
 
 def print_size_and_codes(size, stat_codes):
-    print("file size: {:d}".format(size))
-    for a, c in sorted(stat_codes.item()):
+    print("File size: {:d}".format(size))
+    for a, c in sorted(stat_codes.items()):
         if c:
             print("{:s}: {:d}".format(a, c))
 
