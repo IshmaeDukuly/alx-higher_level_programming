@@ -74,13 +74,13 @@ class square(Rectangle):
             """
 
             if args:
-                for m, n in enumerate(args):
-                    if m == 0:
-                        sefl.id = n
-                    elif m == 1:
-                        self.size = n
-                    elif m == 2:
-                        self.x = n
+                for a, b in enumerate(args):
+                    if a == 0:
+                        sefl.id = b
+                    elif a == 1:
+                        self.size = b
+                    elif a == 2:
+                        self.x = b
                     else:
                         self.y = b
 
@@ -98,12 +98,12 @@ class square(Rectangle):
                     """
                     Return dictionary representation
                     """
-                    n = {}
-                    n["id"] = self.id
-                    n["size"] = self.size
-                    n["x"] = self.x
-                    n{"y"] = self.y
-                    return n
+                    d = {}
+                    d["id"] = self.id
+                    d["size"] = self.size
+                    d["x"] = self.x
+                    d{"y"] = self.y
+                    return d
 
 
 
