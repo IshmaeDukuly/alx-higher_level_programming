@@ -86,7 +86,7 @@ class Rectangle(Base):
         return (self.__height * self.__width)
 
     def display(self):
-        """Displays the rectangle using # """
+        """Displays the rectangle using the # """
         for y in range(self.y):
             print("")
         for row in range(self.__height):
@@ -102,7 +102,7 @@ class Rectangle(Base):
 {self.__width}/{self.__height}"
 
     def update(self, *args, **kwargs):
-        """Assigns an argument to each attribute"""
+        """Assigns an argument to each of the attribute"""
 
         if args and len(args) != 0:
             a = 0
